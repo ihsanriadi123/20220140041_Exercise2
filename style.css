@@ -1,0 +1,45 @@
+body {
+    background-image: url("fasyah-halim-Oi7HIBoLP_A-unsplash.jpg");
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  header h1 {
+    margin-bottom: 20px;
+  }
+  
+  .media-wrapper {
+    text-align: center;
+  }
+  
+  .media-wrapper video,
+  .media-wrapper audio {
+    width: 100%;
+    max-width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .game-instruction {
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+    text-align: center;
+  }
+  
+  footer {
+    margin-top: 20px;
+  }
+  
+  /* Responsiveness adjustments */
+  @media (min-width: 576px) {
+    header h1 {
+      font-size: 2.5rem;
+    }
+  }
+  
